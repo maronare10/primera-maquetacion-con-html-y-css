@@ -1,0 +1,63 @@
+body {
+font-family: sans-serif;
+text-align: center; 
+font-weight: bold;
+font-size: 16px;
+/*background: #333;*/
+background-image: linear-gradient(to right, #30cfd0 0%, #330867 100%);
+}
+
+.signup {
+border: 1px solid purple;
+border-radius: 5px;
+width: 400px;
+margin: 0 auto;
+background: #fff;
+
+}
+
+.form_fila {
+padding: 0 1.3em;
+margin-bottom: 1em;
+display: flex;
+flex-direction: column;
+text-align: left;
+}
+
+.form_fila span {
+margin-bottom: .5em;
+}
+
+.hobbiesGender {
+border: 3px solid #ccc;
+border-radius: 5px;
+display: grid;
+grid-template-columns: 1fr 1fr;
+padding: .5em;
+}
+
+.form_fila input,
+.form_fila select {
+border-radius: 5px;
+padding: .5em;
+border: 3px solid #ccc;
+font-size: 1em;
+}
+
+.button {
+  border: none;
+  border-radius: 5px;
+  /*background: #333;*/
+  background-image: linear-gradient(to right, #30cfd0 0%, #330867 100%);
+  color: white;
+  padding: .5em;
+  font-size: 1.5em;
+  /*text-transform: uppercase;*/ 
+  /*coloca todas las letras en mayúscula*/
+  /*text-transform: lowercase;*/
+  /*coloca todas las letras en minúsculas*/
+}
+
+
+
+

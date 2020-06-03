@@ -1,0 +1,52 @@
+body {
+font-family: sans-serif;
+font-size: 16px;
+text-align: center; 
+font-weight: bold;
+/*background: #333;*/
+background-image: linear-gradient(to right, #30cfd0 0%, #330867 100%);
+margin-top: 5em;
+}
+
+.form_login {
+  /*border: 3px solid #ccc;*/
+  border-radius:5px;
+  width: 400px; 
+  background: white;
+  margin: 0 auto;
+  padding-bottom: .5em;
+}
+
+.formulary {
+padding: 0 1.3em;
+margin-bottom: 1em;
+display: flex;
+flex-direction: column;
+text-align: left;
+}
+
+.formulary input,
+.formulary button {
+  border: 3px solid #ccc;
+  border-radius:5px;
+  font-size: 1.5em;
+  padding:.4em 1.3em;
+}
+
+.button {
+  border: none !important;
+  /*background: #333;*/
+  background-image: linear-gradient(to right, #30cfd0 0%, #330867 100%);
+  color: white;
+  padding: .5em;
+}
+
+.register {
+  margin-top: 1em;
+  font-size: 1em;
+  color: white;
+}
+
+.register a {
+color: #ffd69c;
+}

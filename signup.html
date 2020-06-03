@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>ELEPHANT SIGN UP</title>
+  <link rel="stylesheet" href="Signup.css">
+</head>
+<body>
+  <section class="signup">
+    <img src="logo.svg" alt="Elephant logo" width="150">
+    <form action="index.html" class="entradaDeDatos">
+      <div class="form_fila">
+        <label for="username">Username</label>
+        <input type="text" name="username" id="username"> 
+      </div>
+
+
+      <div class="form_fila">
+        <label for="email">Email</label>
+        <input type="email name="email" id="email"> 
+      </div>
+
+
+      <div class="form_fila">
+        <label for="password">Password</label>
+        <input type="password name="password" id="password"> 
+      </div>
+
+
+      <div class="form_fila">
+        <label for="confirm_password">Confirm Password</label>
+        <input type="confirm_password name="confirm_password" id="confirm_password"> 
+      </div>
+
+
+      <div class="form_fila">
+        <label for="plan">Plan</label>
+        <select name="plan" id="plan">
+          <option value="free">Free (US$ 0)</option>
+          <option value="monthly">Monthly (US$ 10)</option>
+          <option value="yearly">Yearly (US$ 50)</option>
+        </select>  
+      </div>
+
+      <div class="form_fila">
+        <span>Hobbies</span>
+        <div class="hobbiesGender">
+          <label><input type="checkbox" name="hobbies" value="sports"> Sports</label>
+          <label><input type="checkbox" name="hobbies" value="cooking"> Cooking</label>
+          <label><input type="checkbox" name="hobbies" value="swimming"> Swimming</label>
+          <label><input type="checkbox" name="hobbies" value="dancing"> Dancing</label>
+        </div>
+      </div>
+
+      <div class="form_fila">
+        <span>Gender</span>
+        <div class ="hobbiesGender">
+          <label><input type="radio" name="gender" value="female"> Female</label>
+          <label><input type="radio" name="gender" value="male"> Male</label>
+        </div>
+      </div>
+
+
+      <div class="form_fila">
+        <label><input type="checkbox" name="Terms_and_Conditions" value="Terms_and_Conditions"> I agree to the Terms and Conditions</label>
+      </div>
+      <div class="form_fila">
+        <button class="button" type="submit">Sign up</button>
+      </div>
+    </form>
+  </section>
+  
+</body>
+</html>

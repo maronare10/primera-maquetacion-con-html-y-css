@@ -1,0 +1,48 @@
+.header {
+border-bottom: .2em solid #bdbdbd;
+border-top-left-radius: 5px;
+border-top-right-radius: 5px;
+display: flex;
+justify-content: space-between;
+align-items: center;
+padding: 1em 5em;
+background-image: linear-gradient(to right, #30cfd0 0%, #330867 100%);
+}
+
+.header div {
+  font-size: 1.1em;
+  color: #dddd;
+  font-family: 'Architects Daughter', cursive;
+}
+
+.login a {
+  color: #ffff;
+}
+
+.section {
+border-bottom-right-radius: 5px;
+border-bottom-left-radius:  5px;
+background-image: linear-gradient(to right, #30cfd0 0%, #330867 100%);
+font-size: 5em;
+font-family: 'Architects Daughter', cursive;
+}
+
+.logo {
+  display: flex;
+  justify-content: center;
+  padding-top: .5em;
+}
+
+.comingSonn {
+  display: flex;
+  justify-content: center;
+  color: #ffff;
+}
+
+p {
+  margin-top: 0;
+}
+
+
+
+
